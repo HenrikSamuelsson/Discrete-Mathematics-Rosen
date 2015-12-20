@@ -6,4 +6,4 @@ This book comes in many different versions. The exact version that used is the g
 ## Exercise Solutions
 
 ### Chapter 1 - The Foundations: Logic and Proofs  
-1.1 Propositional logic, [TEX-format](/Exercises/Section 01.01 Propositonal Logic/Exercises_01_01.tex), pdf-format.
+1.1 Propositional logic, [TEX-format](/Exercises/Section 01.01 Propositonal Logic/Exercises_01_01.tex), [PDF-format](/Exercises/Section 01.01 Propositonal Logic/Exercises_01_01.pdf).
