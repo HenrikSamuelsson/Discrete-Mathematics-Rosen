@@ -1,5 +1,5 @@
 //============================================================================
-// Name        : Thruth.cpp
+// Name        : truth_values.cpp
 // Author      : 
 // Version     :
 // Copyright   : Your copyright notice
