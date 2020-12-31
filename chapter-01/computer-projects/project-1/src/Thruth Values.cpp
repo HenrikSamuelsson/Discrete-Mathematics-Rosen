@@ -9,23 +9,32 @@
 #include <iostream>
 using namespace std;
 
-void printThruthValue(bool value);
+void printTruthValue(bool value);
 
 int main()
 {
-	bool p = false;
-	bool q = false;
+	bool p;
+	bool q;
 	bool conjunction;
+	
+	for (int i = 0; i < 4; i++)
+	{
+		p = ( i >> 0 ) & 0x01;
+		q = ( i >> 1 ) & 0x01;
+	
+		bool conjunction;
 
-	printThruthValue(p);
-	printThruthValue(q);
-	conjunction = p && q;
-	printThruthValue(conjunction);
+		printTruthValue(p);
+		printTruthValue(q);
+		conjunction = p && q;
+		printTruthValue(conjunction);
+		cout << endl;
+	}
 
 	return 0;
 }
 
-void printThruthValue(bool value)
+void printTruthValue(bool value)
 {
 	if (value)
 		{
