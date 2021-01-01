@@ -62,9 +62,8 @@ bool conjunction(bool s, bool t)
 void printHelpSection(void)
 {
 	std::cout << "How to read the tables: " << std::endl;
-	std::cout << "The name of the operation is given first." << std::endl;
-	std::cout << "The given propositions are p and q." << std::endl;
-	std::cout << "The result is indicated by r." << std::endl;
+	std::cout << "The name of the operation is given first as a table header." << std::endl;
+	std::cout << "The given propositions are p, q, and the result is indicated by r." << std::endl;
 	std::cout << std::endl;
 }
 
